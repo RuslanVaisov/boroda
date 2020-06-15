@@ -193,13 +193,11 @@
 @media (max-width: 425px) {
   .showcase {
     .showcase-shadow {
-      width: 10%;
-      left: 6.5%;
-      bottom: 43.5%;
+      display: none;
     }
 
     .showcase-appointment {
-      bottom: 10%;
+      bottom: 20%;
       a {
         font-size: 0.7rem;
       }

@@ -176,11 +176,12 @@
 
     .services-man {
       img {
-        width: 50px;
+        width: 100%;
       }
       position: absolute;
-      bottom: 13%;
-      left: 2%;
+      bottom: 25%;
+      left: 10%;
+      opacity: 0.05;
     }
   }
 }

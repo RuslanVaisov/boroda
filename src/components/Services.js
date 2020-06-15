@@ -10,7 +10,6 @@ const Services = () => {
       <div className="services-top"></div>
       <div className="services-center">
         <img src={servicesCenter} alt="услуги" />
-
         <video
           loop
           autoPlay
