@@ -47,3 +47,36 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .instagram {
+    .instagram-text {
+      font-size: 1.5rem;
+    }
+
+    .instagram-content {
+      max-width: 100%;
+      padding: 2rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .instagram {
+    overflow: hidden;
+    .instagram-text {
+      font-size: 1rem;
+    }
+
+    .instagram-content {
+      max-width: 100%;
+      padding: 0.5rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 0.5rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

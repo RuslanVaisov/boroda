@@ -28,7 +28,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <div className="nav-img">
+            <div className="nav-img nav-logo">
               <img src={logo} width={"100%"} alt="Лого" />
             </div>
           </li>

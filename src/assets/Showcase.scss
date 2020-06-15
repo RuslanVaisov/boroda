@@ -144,3 +144,99 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .showcase {
+    .showcase-shadow {
+      width: 5%;
+      left: 1%;
+      bottom: 2%;
+    }
+
+    .showcase-appointment {
+      bottom: 10%;
+      a {
+        font-size: 0.8rem;
+      }
+    }
+
+    .showcase-bottom {
+      width: 90%;
+      bottom: 9%;
+
+      .showcase-left {
+        img {
+          width: 35px;
+        }
+
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+
+      .showcase-right {
+        .showcase-contact {
+          font-size: 0.8rem;
+        }
+
+        .showcase-social-media {
+          a {
+            padding-top: 0;
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .showcase {
+    .showcase-shadow {
+      width: 10%;
+      left: 6.5%;
+      bottom: 43.5%;
+    }
+
+    .showcase-appointment {
+      bottom: 10%;
+      a {
+        font-size: 0.7rem;
+      }
+    }
+
+    .showcase-bottom {
+      flex-direction: column;
+      width: 100%;
+      bottom: 30%;
+
+      .showcase-left {
+        img {
+          width: 40px;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+      }
+
+      .showcase-right {
+        padding-top: 4rem;
+        align-items: center;
+
+        .showcase-contact {
+          font-size: 0.8rem;
+          text-align: center;
+        }
+
+        .showcase-social-media {
+          a {
+            padding-top: 0;
+            font-size: 0.8rem;
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

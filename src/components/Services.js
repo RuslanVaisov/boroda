@@ -9,9 +9,8 @@ const Services = () => {
     <section className="services">
       <div className="services-top"></div>
       <div className="services-center">
-        <div>
-          <img src={servicesCenter} alt="услуги" />
-        </div>
+        <img src={servicesCenter} alt="услуги" />
+
         <video
           loop
           autoPlay

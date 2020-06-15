@@ -92,3 +92,95 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .services {
+    height: 100%;
+
+    .services-top {
+      height: 20vh;
+    }
+
+    .services-center {
+      top: 9%;
+      img {
+        width: 240px;
+        height: 135px;
+      }
+
+      video {
+        width: 240px;
+        height: 135px;
+      }
+    }
+
+    .services-bottom {
+      margin-top: 12rem;
+      width: 80%;
+      grid-template-columns: 1fr;
+      grid-gap: 4rem;
+      padding-bottom: 2rem;
+
+      ul {
+        li {
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .services-man {
+      img {
+        width: 70px;
+      }
+      position: absolute;
+      bottom: 10%;
+      left: 5%;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .services {
+    height: 100%;
+
+    .services-top {
+      height: 10vh;
+    }
+
+    .services-center {
+      top: 3%;
+      img {
+        width: 160px;
+        height: 90px;
+      }
+
+      video {
+        width: 160px;
+        height: 90px;
+      }
+    }
+
+    .services-bottom {
+      margin-top: 5rem;
+      width: 80%;
+      grid-template-columns: 1fr;
+      grid-gap: 4rem;
+      padding-bottom: 2rem;
+
+      ul {
+        li {
+          font-size: 0.7rem;
+        }
+      }
+    }
+
+    .services-man {
+      img {
+        width: 50px;
+      }
+      position: absolute;
+      bottom: 13%;
+      left: 2%;
+    }
+  }
+}
