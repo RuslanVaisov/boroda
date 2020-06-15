@@ -13,6 +13,7 @@ const Services = () => {
         <video
           loop
           autoPlay
+          muted
           width={"640px"}
           height={"360px"}
           type={"video/mp4"}
