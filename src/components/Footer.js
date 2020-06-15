@@ -5,7 +5,7 @@ import compass from "../img/compass-black.png";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
           <div className="footer-compass">

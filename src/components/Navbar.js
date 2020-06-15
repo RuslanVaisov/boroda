@@ -5,6 +5,7 @@ import boroda from "../img/boroda.png";
 import compass from "../img/compass.png";
 import logo from "../img/logo.png";
 import "../assets/Navbar.scss";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -12,20 +13,37 @@ const Navbar = () => {
       <div className="container">
         <ul className="nav-content">
           <li>
-            <a className="active" href="/">
+            <Link
+              activeClass="active"
+              to="showcase"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={500}
+              isDynamic={true}
+              ignoreCancelEvents={false}
+            >
               <div className="nav-img">
                 <img src={blade} alt="Главная" />
               </div>
               <p>Главная</p>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/">
+            <Link
+              to="services"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={1000}
+              isDynamic={true}
+              ignoreCancelEvents={false}
+            >
               <div className="nav-img">
                 <img src={scissors} alt="Услуги" />
               </div>
               <p>Услуги</p>
-            </a>
+            </Link>
           </li>
           <li>
             <div className="nav-img nav-logo">
@@ -33,20 +51,36 @@ const Navbar = () => {
             </div>
           </li>
           <li>
-            <a href="/">
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={1500}
+              isDynamic={true}
+              ignoreCancelEvents={false}
+            >
               <div className="nav-img">
                 <img src={boroda} alt="Обо мне" />
               </div>
               <p>Обо мне</p>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/">
+            <Link
+              to="footer"
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={2000}
+              isDynamic={true}
+              ignoreCancelEvents={false}
+            >
               <div className="nav-img">
                 <img src={compass} alt="Контакты" />
               </div>
               <p>Контакты</p>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
