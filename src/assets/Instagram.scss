@@ -1,0 +1,49 @@
+.instagram {
+  position: relative;
+
+  .instagram-text {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: #fff;
+    transform: translate(-50%, 0);
+    font-size: 2rem;
+    z-index: 2;
+    font-weight: 700;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  .instagram-content {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 3rem;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    img {
+      width: 80%;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color: #000000, $alpha: 0.85);
+      box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000;
+    }
+  }
+}
