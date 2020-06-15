@@ -11,6 +11,7 @@ const Services = () => {
       <div className="services-center">
         <img src={servicesCenter} alt="услуги" />
         <video
+          playsInline
           loop
           autoPlay
           muted
