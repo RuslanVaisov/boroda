@@ -9,8 +9,13 @@ const Services = () => {
     <section className="services">
       <div className="services-top"></div>
       <div className="services-center">
-        <img src={servicesCenter} alt="услуги" />
+        <img
+          className="services-center-left"
+          src={servicesCenter}
+          alt="услуги"
+        />
         <video
+          className="services-center-right"
           playsInline
           loop
           autoPlay

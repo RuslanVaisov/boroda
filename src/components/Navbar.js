@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav>
       <div className="container">
         <ul className="nav-content">
-          <li>
+          <li className="nav-secondary">
             <Link
               activeClass="active"
               to="showcase"
@@ -29,7 +29,7 @@ const Navbar = () => {
               <p>Главная</p>
             </Link>
           </li>
-          <li>
+          <li className="nav-secondary">
             <Link
               to="services"
               spy={true}
@@ -50,7 +50,7 @@ const Navbar = () => {
               <img src={logo} width={"100%"} alt="Лого" />
             </div>
           </li>
-          <li>
+          <li className="nav-secondary">
             <Link
               to="about"
               spy={true}
@@ -66,7 +66,7 @@ const Navbar = () => {
               <p>Обо мне</p>
             </Link>
           </li>
-          <li>
+          <li className="nav-secondary">
             <Link
               to="footer"
               spy={true}
