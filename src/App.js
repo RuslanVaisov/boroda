@@ -57,7 +57,7 @@ function App() {
             trigger: ".services-center-right",
             start: "top 100%",
             end: "top 80%",
-            scrub: true,
+            scrub: 1,
           },
           x: "100vh",
           opacity: 0,
