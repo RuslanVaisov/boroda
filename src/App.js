@@ -42,8 +42,8 @@ function App() {
       .from(".services-center-left", 1, {
         scrollTrigger: {
           trigger: ".services-center-left",
-          start: "top 90%",
-          end: "top 50%",
+          start: "top 100%",
+          end: "top 80%",
           scrub: 1,
         },
         x: "-100vh",
@@ -55,8 +55,8 @@ function App() {
         {
           scrollTrigger: {
             trigger: ".services-center-right",
-            start: "top 90%",
-            end: "top 50%",
+            start: "top 100%",
+            end: "top 80%",
             scrub: 1,
           },
           x: "100vh",
@@ -66,19 +66,20 @@ function App() {
       )
       .from(".services-bottom", 1, {
         scrollTrigger: {
-          trigger: ".services-center-right",
-          start: "top 30%",
-          end: "top 50%",
+          trigger: ".services-bottom",
+          start: "top 100%",
+          end: "top 80%",
           scrub: 1,
         },
-        y: "100vh",
+        y: "20vh",
+        opacity: 0,
       });
 
     tl3.from(".about-main", 2, {
       scrollTrigger: {
         trigger: ".about-main",
-        start: "top 90%",
-        end: "top 50%",
+        start: "top 100%",
+        end: "top 80%",
         scrub: 1,
       },
       y: "30vh",
@@ -88,8 +89,8 @@ function App() {
     tl4.from(".instagram-content img", 3, {
       scrollTrigger: {
         trigger: ".instagram-content",
-        start: "top 40%",
-        end: "top 50%",
+        start: "top 90%",
+        end: "top 80%",
         scrub: 3,
       },
       y: "100vh",
