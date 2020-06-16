@@ -86,7 +86,7 @@ function App() {
       opacity: 0,
     });
 
-    tl4.from(".instagram-content img", 3, {
+    tl4.from(".instagram-content img", 10, {
       scrollTrigger: {
         trigger: ".instagram-content",
         start: "top 90%",
@@ -95,7 +95,7 @@ function App() {
       },
       y: "100vh",
       opacity: 0,
-      stagger: 0.3,
+      stagger: 0.5,
     });
   }, []);
 
