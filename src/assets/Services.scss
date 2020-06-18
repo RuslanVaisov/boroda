@@ -4,6 +4,7 @@
   width: 100%;
   background-color: #fff;
   overflow: hidden;
+  padding-bottom: 3rem;
 
   .services-top {
     height: 35vh;
@@ -116,7 +117,7 @@
     }
 
     .services-bottom {
-      margin-top: 12rem;
+      margin-top: 6rem;
       width: 80%;
       grid-template-columns: 1fr;
       grid-gap: 4rem;

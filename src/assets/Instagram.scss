@@ -1,4 +1,5 @@
 .instagram {
+  margin-top: 2rem;
   position: relative;
 
   .instagram-text {
@@ -88,7 +89,7 @@
 @media (max-width: 425px) {
   .instagram {
     .instagram-text {
-      font-size: 1rem;
+      font-size: 0.9rem;
     }
 
     .instagram-content {
