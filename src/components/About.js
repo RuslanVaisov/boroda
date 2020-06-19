@@ -1,31 +1,31 @@
-import React from "react";
-import "../assets/About.scss";
-import boroda from "../img/boroda.png";
-import oleg from "../img/oleg.png";
-import abouText from "../img/about-text.png";
+import React from 'react';
+import '../assets/About.scss';
+import boroda from '../img/boroda.png';
+import oleg from '../img/oleg.png';
+import abouText from '../img/about-text.png';
 
 const About = () => {
   return (
-    <section className="about">
-      <div className="about-top">
-        <div className="about-info-black">
+    <section className='about'>
+      <div className='about-top'>
+        <div className='about-info-black'>
           <div>
-            <img src={boroda} alt="Олег Суслов" />
+            <img src={boroda} alt='Олег Суслов' />
           </div>
 
           <h1>Обо мне</h1>
         </div>
       </div>
-      <div className="about-main">
-        <div className="about-info">
+      <div className='about-main'>
+        <div className='about-info'>
           <h2>
-            <img src={abouText} alt="Олег Суслов" />
+            <img src={abouText} alt='Олег Суслов' />
           </h2>
           <p>
             Кто не знает, меня зовут Олег, основная рабочая деятельность -
             барберинг, другими словами я Парикмахер, Цирюльник, как говорили в
             древности, или просто стилист универсал.
-            <span role="img" aria-label="barbershop">
+            <span role='img' aria-label='barbershop'>
               💈⚔️💈
             </span>
             <br />
@@ -36,7 +36,7 @@ const About = () => {
             Где получил хороший опыт именно по бритью и уходом за Бородой.
             <br /> <br />
             Наверное спросите почему именно Барбер ?
-            <span role="img" aria-label="barber-scissors">
+            <span role='img' aria-label='barber-scissors'>
               ✂️
             </span>
             <br />
@@ -51,8 +51,8 @@ const About = () => {
             так и в других странах.
           </p>
         </div>
-        <div className="about-photo">
-          <img src={oleg} alt="Олег Суслов" />
+        <div className='about-photo'>
+          <img src={oleg} alt='Олег Суслов' />
         </div>
       </div>
     </section>

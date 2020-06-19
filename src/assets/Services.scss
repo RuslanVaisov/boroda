@@ -8,7 +8,7 @@
 
   .services-top {
     height: 35vh;
-    background: url("../img//services-top.png") center center/cover;
+    background: url('../img//services-top.png') center center/cover;
   }
 
   .services-center {
@@ -89,7 +89,7 @@
         width: 70px;
       }
       position: absolute;
-      bottom: 16%;
+      bottom: 22%;
       left: 1%;
     }
   }
@@ -123,6 +123,10 @@
       grid-gap: 4rem;
       padding-bottom: 2rem;
 
+      .services-second-ul {
+        margin-top: -4rem;
+      }
+
       ul {
         li {
           font-size: 0.9rem;
@@ -135,7 +139,7 @@
         width: 70px;
       }
       position: absolute;
-      bottom: 10%;
+      bottom: 12%;
       left: 5%;
     }
   }
@@ -181,8 +185,8 @@
         width: 100%;
       }
       position: absolute;
-      bottom: 25%;
-      left: 10%;
+      bottom: 15%;
+      left: 2%;
       opacity: 0.05;
     }
   }

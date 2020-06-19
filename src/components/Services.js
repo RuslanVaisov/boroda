@@ -1,32 +1,32 @@
-import React from "react";
-import "../assets/Services.scss";
-import servicesCenter from "../img/services-center.png";
-import video from "../img/video/services-video.mp4";
-import man from "../img/man.png";
+import React from 'react';
+import '../assets/Services.scss';
+import servicesCenter from '../img/services-center.png';
+import video from '../img/video/services-video.mp4';
+import man from '../img/man.png';
 
 const Services = () => {
   return (
-    <section className="services">
-      <div className="services-top"></div>
-      <div className="services-center">
+    <section className='services'>
+      <div className='services-top'></div>
+      <div className='services-center'>
         <img
-          className="services-center-left"
+          className='services-center-left'
           src={servicesCenter}
-          alt="услуги"
+          alt='услуги'
         />
         <video
-          className="services-center-right"
+          className='services-center-right'
           playsInline
           loop
           autoPlay
           muted
-          width={"640px"}
-          height={"360px"}
-          type={"video/mp4"}
+          width={'640px'}
+          height={'360px'}
+          type={'video/mp4'}
           src={video}
         ></video>
       </div>
-      <div className="services-bottom">
+      <div className='services-bottom'>
         <ul>
           <li>
             Cтрижка . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -48,7 +48,7 @@ const Services = () => {
             <span>100,000</span>
           </li>
         </ul>
-        <ul>
+        <ul className='services-second-ul'>
           <li>
             Массаж головы . . . . . . . . . . . . . . . . . . . . . . .
             <span>50,000</span>
@@ -67,8 +67,8 @@ const Services = () => {
           </li>
         </ul>
       </div>
-      <div className="services-man">
-        <img src={man} alt="" />
+      <div className='services-man'>
+        <img src={man} alt='' />
       </div>
     </section>
   );
