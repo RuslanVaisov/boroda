@@ -103,7 +103,7 @@ footer {
 
 @media (max-width: 768px) {
   footer {
-    height: 100vh;
+    height: 100%;
     padding: 2rem;
 
     .footer-top {
@@ -112,6 +112,7 @@ footer {
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      max-width: 100%;
 
       .footer-top-left {
         align-items: center;
@@ -144,7 +145,7 @@ footer {
 
       .footer-top-right {
         img {
-          width: 90%;
+          width: 100%;
         }
       }
     }
@@ -200,7 +201,7 @@ footer {
 
       .footer-top-right {
         img {
-          width: 90%;
+          width: 100%;
         }
       }
     }
@@ -208,7 +209,7 @@ footer {
       height: 65px;
       padding-top: 1rem;
       width: 90%;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
     }
   }
 }
