@@ -1,16 +1,21 @@
 .instagram {
   margin-top: 2rem;
-  position: relative;
+  overflow: hidden;
+  padding: 4rem 0.5rem;
+
+  h1 {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    color: #fff;
+  }
 
   .instagram-text {
-    top: 50%;
-    left: 50%;
-    position: absolute;
+    max-width: 80%;
+    margin: 2rem auto;
     color: #fff;
-    transform: translate(-50%, 0);
     font-size: 2rem;
-    z-index: 2;
-    font-weight: 700;
 
     a {
       color: #fff;
@@ -19,95 +24,68 @@
 
   .instagram-content {
     width: 80%;
-    position: relative;
-    max-width: 100%;
     margin: 0 auto;
-    height: 100vh;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-
-    div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+    grid-gap: 2rem;
 
     img {
-      width: 80%;
-    }
-
-    &:after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
       width: 100%;
-      height: 100%;
-      background-color: rgba($color: #000000, $alpha: 0.8);
-      box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000;
     }
   }
 }
 
 @media (max-width: 1024px) {
   .instagram {
+    padding: 2rem 0.5rem;
+
+    h1 {
+      font-size: 2rem;
+      margin: 2rem auto;
+    }
+
     .instagram-text {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 
     .instagram-content {
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 3rem;
-      overflow: hidden;
+      grid-gap: 1rem;
     }
   }
 }
 
 @media (max-width: 768px) {
   .instagram {
-    overflow: hidden;
+    h1 {
+      font-size: 2rem;
+    }
+
     .instagram-text {
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
 
     .instagram-content {
-      max-width: 100%;
-      padding: 0.5rem;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 1rem;
-
-      &:after {
-        content: "";
-        background-color: rgba($color: #000000, $alpha: 0.2);
-
-        box-shadow: inset 60px 50px 125px #000, inset -60px -50px -125px #000;
-      }
     }
   }
 }
 
 @media (max-width: 425px) {
   .instagram {
+    h1 {
+      font-size: 1.5rem;
+    }
+
     .instagram-text {
-      font-size: 0.9rem;
+      margin: 1rem auto;
+
+      font-size: 1rem;
     }
 
     .instagram-content {
-      max-width: 100%;
-      padding: 0.5rem;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 1rem;
-
-      img {
-        width: 100%;
-      }
-
-      &:after {
-        content: "";
-        background-color: rgba($color: #000000, $alpha: 0.2);
-
-        box-shadow: inset 40px 25px 62.5px #000, inset -40px -25px -62.5px #000;
-      }
+      grid-gap: 0.8rem;
     }
   }
 }

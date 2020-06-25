@@ -1,21 +1,21 @@
-import React from "react";
-import blade from "../img/blade.png";
-import scissors from "../img/scissors.png";
-import boroda from "../img/boroda.png";
-import compass from "../img/compass.png";
-import logo from "../img/logo.png";
-import "../assets/Navbar.scss";
-import { Link } from "react-scroll";
+import React from 'react';
+import blade from '../img/blade.png';
+import scissors from '../img/scissors.png';
+import boroda from '../img/boroda.png';
+import compass from '../img/compass.png';
+import logo from '../img/logo.png';
+import '../assets/Navbar.scss';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
     <nav>
-      <div className="container">
-        <ul className="nav-content">
-          <li className="nav-secondary">
+      <div className='container'>
+        <ul className='nav-content'>
+          <li className='nav-secondary'>
             <Link
-              activeClass="active"
-              to="showcase"
+              activeClass='active'
+              to='services'
               spy={true}
               smooth={true}
               hashSpy={true}
@@ -23,15 +23,15 @@ const Navbar = () => {
               isDynamic={true}
               ignoreCancelEvents={false}
             >
-              <div className="nav-img">
-                <img src={blade} alt="Главная" />
+              <div className='nav-img'>
+                <img src={blade} alt='Главная' />
               </div>
-              <p>Главная</p>
+              <p>Услуги</p>
             </Link>
           </li>
-          <li className="nav-secondary">
+          <li className='nav-secondary'>
             <Link
-              to="services"
+              to='about'
               spy={true}
               smooth={true}
               hashSpy={true}
@@ -39,20 +39,20 @@ const Navbar = () => {
               isDynamic={true}
               ignoreCancelEvents={false}
             >
-              <div className="nav-img">
-                <img src={scissors} alt="Услуги" />
+              <div className='nav-img'>
+                <img src={boroda} alt='Услуги' />
               </div>
-              <p>Услуги</p>
+              <p>Обо мне</p>
             </Link>
           </li>
           <li>
-            <div className="nav-img nav-logo">
-              <img src={logo} width={"100%"} alt="Лого" />
+            <div className='nav-img nav-logo'>
+              <img src={logo} width={'100%'} alt='Лого' />
             </div>
           </li>
-          <li className="nav-secondary">
+          <li className='nav-secondary'>
             <Link
-              to="about"
+              to='instagram'
               spy={true}
               smooth={true}
               hashSpy={true}
@@ -60,15 +60,15 @@ const Navbar = () => {
               isDynamic={true}
               ignoreCancelEvents={false}
             >
-              <div className="nav-img">
-                <img src={boroda} alt="Обо мне" />
+              <div className='nav-img'>
+                <img src={scissors} alt='Обо мне' />
               </div>
-              <p>Обо мне</p>
+              <p>Галерея</p>
             </Link>
           </li>
-          <li className="nav-secondary">
+          <li className='nav-secondary'>
             <Link
-              to="footer"
+              to='footer'
               spy={true}
               smooth={true}
               hashSpy={true}
@@ -76,8 +76,8 @@ const Navbar = () => {
               isDynamic={true}
               ignoreCancelEvents={false}
             >
-              <div className="nav-img">
-                <img src={compass} alt="Контакты" />
+              <div className='nav-img'>
+                <img src={compass} alt='Контакты' />
               </div>
               <p>Контакты</p>
             </Link>
