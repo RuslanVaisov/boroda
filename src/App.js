@@ -3,13 +3,11 @@ import Navbar from './components/Navbar';
 import Showcase from './components/Showcase';
 import Services from './components/Services';
 import About from './components/About';
-import Instagram from './components/Instagram';
 import Footer from './components/Footer';
-
-import SimpleReactLightbox from 'simple-react-lightbox';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import PageGallery from './components/PageGallery';
 
 function App() {
   useEffect(() => {
@@ -107,9 +105,7 @@ function App() {
       <Showcase />
       <Services />
       <About />
-      <SimpleReactLightbox>
-        <Instagram />
-      </SimpleReactLightbox>
+      <PageGallery />
       <Footer />
     </div>
   );

@@ -1,0 +1,81 @@
+.pagination {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 4rem;
+
+  .page-item {
+    padding: 0.5rem;
+    list-style: none;
+
+    .page-link {
+      color: #fff;
+      padding: 0.3rem 0.8rem;
+      text-decoration: none;
+      font-size: 1.3rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.instagram-text {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  color: #fff;
+  font-size: 2rem;
+
+  a {
+    color: #fff;
+  }
+}
+
+@media (max-width: 1024px) {
+  .instagram-text {
+    font-size: 1.2rem;
+  }
+  .pagination {
+    .page-item {
+      padding: 0.3rem;
+
+      .page-link {
+        padding: 0.3rem 0.8rem;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .instagram-text {
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .pagination {
+    margin-bottom: 2rem;
+
+    .page-item {
+      padding: 0.1rem;
+
+      .page-link {
+        padding: 0.3rem 0.8rem;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .instagram-text {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+}
